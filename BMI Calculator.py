@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[25]:
-
 
 name = input("Enter you name: ")
 
@@ -35,69 +30,9 @@ if BMI>0:
         print (name + ", you are morbidely obese")
     else:
         print("Enter valid inputs")
-
-
-# In[24]:
-
-
+        
 #BMI = (weight in pounds x 703) / (height in inches x height in inches)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[14]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
