@@ -1,0 +1,31 @@
+folder_names = ['csv files', 'image files', 'xlsx files', 'exe files', 'twbx files', 'zip files', 'py files', 'sql files', 'png files', ]
+
+for loop in range (0,9):
+    if not os.path.exists(path + folder_names[loop]):
+        os.makedirs((path + folder_names[loop]))
+                
+for file in file_name:
+    if ".csv" in file and not os.path.exists(path + "csv files/" + file):
+        shutil.move(path + file, path + "csv files/" + file )
+    
+    elif ".png" in file and not os.path.exists(path + "image files/" + file):
+        shutil.move(path + file, path + "image files/" + file )
+    
+    elif ".xlsx" in file and not os.path.exists(path + "xlsx files/" + file):
+        shutil.move(path + file, path + "xlsx files/" + file )
+    
+    elif ".exe" in file and not os.path.exists(path + "exe files/" + file):
+        shutil.move(path + file, path + "exe files/" + file )
+    
+    elif ".twbx" in file and not os.path.exists(path + "twbx files/" + file):
+        shutil.move(path + file, path + "twbx files/" + file )
+    
+    elif ".zip" in file and not os.path.exists(path + "zip files/" + file):
+        shutil.move(path + file, path + "zip files/" + file )
+    
+    elif ".py" in file and not os.path.exists(path + "py files/" + file):
+        shutil.move(path + file, path + "py files/" + file )
+    
+    elif ".sql" in file and not os.path.exists(path + "sql files/" + file):
+        shutil.move(path + file, path + "sql files/" + file )
+        
